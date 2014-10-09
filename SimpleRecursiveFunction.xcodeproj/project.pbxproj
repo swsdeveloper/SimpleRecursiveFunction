@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AF365E719E70221005787EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF365E619E70221005787EE /* main.m */; };
+		0AF365EA19E70221005787EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF365E919E70221005787EE /* AppDelegate.m */; };
+		0AF365ED19E70221005787EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF365EC19E70221005787EE /* ViewController.m */; };
+		0AF365F019E70221005787EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF365EE19E70221005787EE /* Main.storyboard */; };
+		0AF365F219E70221005787EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF365F119E70221005787EE /* Images.xcassets */; };
+		0AF365F519E70221005787EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF365F319E70221005787EE /* LaunchScreen.xib */; };
+		0AF3660119E70221005787EE /* SimpleRecursiveFunctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3660019E70221005787EE /* SimpleRecursiveFunctionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AF365FB19E70221005787EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AF365D919E70221005787EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AF365E019E70221005787EE;
+			remoteInfo = SimpleRecursiveFunction;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AF365E119E70221005787EE /* SimpleRecursiveFunction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRecursiveFunction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF365E519E70221005787EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF365E619E70221005787EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0AF365E819E70221005787EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0AF365E919E70221005787EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0AF365EB19E70221005787EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0AF365EC19E70221005787EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0AF365EF19E70221005787EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AF365F119E70221005787EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0AF365F419E70221005787EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0AF365FA19E70221005787EE /* SimpleRecursiveFunctionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecursiveFunctionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF365FF19E70221005787EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AF3660019E70221005787EE /* SimpleRecursiveFunctionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRecursiveFunctionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AF365DE19E70221005787EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF365F719E70221005787EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AF365D819E70221005787EE = {
+			isa = PBXGroup;
+			children = (
+				0AF365E319E70221005787EE /* SimpleRecursiveFunction */,
+				0AF365FD19E70221005787EE /* SimpleRecursiveFunctionTests */,
+				0AF365E219E70221005787EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AF365E219E70221005787EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AF365E119E70221005787EE /* SimpleRecursiveFunction.app */,
+				0AF365FA19E70221005787EE /* SimpleRecursiveFunctionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AF365E319E70221005787EE /* SimpleRecursiveFunction */ = {
+			isa = PBXGroup;
+			children = (
+				0AF365E819E70221005787EE /* AppDelegate.h */,
+				0AF365E919E70221005787EE /* AppDelegate.m */,
+				0AF365EB19E70221005787EE /* ViewController.h */,
+				0AF365EC19E70221005787EE /* ViewController.m */,
+				0AF365EE19E70221005787EE /* Main.storyboard */,
+				0AF365F119E70221005787EE /* Images.xcassets */,
+				0AF365F319E70221005787EE /* LaunchScreen.xib */,
+				0AF365E419E70221005787EE /* Supporting Files */,
+			);
+			path = SimpleRecursiveFunction;
+			sourceTree = "<group>";
+		};
+		0AF365E419E70221005787EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AF365E519E70221005787EE /* Info.plist */,
+				0AF365E619E70221005787EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0AF365FD19E70221005787EE /* SimpleRecursiveFunctionTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AF3660019E70221005787EE /* SimpleRecursiveFunctionTests.m */,
+				0AF365FE19E70221005787EE /* Supporting Files */,
+			);
+			path = SimpleRecursiveFunctionTests;
+			sourceTree = "<group>";
+		};
+		0AF365FE19E70221005787EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AF365FF19E70221005787EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AF365E019E70221005787EE /* SimpleRecursiveFunction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF3660419E70221005787EE /* Build configuration list for PBXNativeTarget "SimpleRecursiveFunction" */;
+			buildPhases = (
+				0AF365DD19E70221005787EE /* Sources */,
+				0AF365DE19E70221005787EE /* Frameworks */,
+				0AF365DF19E70221005787EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRecursiveFunction;
+			productName = SimpleRecursiveFunction;
+			productReference = 0AF365E119E70221005787EE /* SimpleRecursiveFunction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AF365F919E70221005787EE /* SimpleRecursiveFunctionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF3660719E70221005787EE /* Build configuration list for PBXNativeTarget "SimpleRecursiveFunctionTests" */;
+			buildPhases = (
+				0AF365F619E70221005787EE /* Sources */,
+				0AF365F719E70221005787EE /* Frameworks */,
+				0AF365F819E70221005787EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AF365FC19E70221005787EE /* PBXTargetDependency */,
+			);
+			name = SimpleRecursiveFunctionTests;
+			productName = SimpleRecursiveFunctionTests;
+			productReference = 0AF365FA19E70221005787EE /* SimpleRecursiveFunctionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AF365D919E70221005787EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Steven Shatz";
+				TargetAttributes = {
+					0AF365E019E70221005787EE = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					0AF365F919E70221005787EE = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 0AF365E019E70221005787EE;
+					};
+				};
+			};
+			buildConfigurationList = 0AF365DC19E70221005787EE /* Build configuration list for PBXProject "SimpleRecursiveFunction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AF365D819E70221005787EE;
+			productRefGroup = 0AF365E219E70221005787EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AF365E019E70221005787EE /* SimpleRecursiveFunction */,
+				0AF365F919E70221005787EE /* SimpleRecursiveFunctionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AF365DF19E70221005787EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF365F019E70221005787EE /* Main.storyboard in Resources */,
+				0AF365F519E70221005787EE /* LaunchScreen.xib in Resources */,
+				0AF365F219E70221005787EE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF365F819E70221005787EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AF365DD19E70221005787EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF365ED19E70221005787EE /* ViewController.m in Sources */,
+				0AF365EA19E70221005787EE /* AppDelegate.m in Sources */,
+				0AF365E719E70221005787EE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF365F619E70221005787EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF3660119E70221005787EE /* SimpleRecursiveFunctionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AF365FC19E70221005787EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AF365E019E70221005787EE /* SimpleRecursiveFunction */;
+			targetProxy = 0AF365FB19E70221005787EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AF365EE19E70221005787EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF365EF19E70221005787EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AF365F319E70221005787EE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AF365F419E70221005787EE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AF3660219E70221005787EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0AF3660319E70221005787EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AF3660519E70221005787EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRecursiveFunction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF3660619E70221005787EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleRecursiveFunction/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF3660819E70221005787EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleRecursiveFunctionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRecursiveFunction.app/SimpleRecursiveFunction";
+			};
+			name = Debug;
+		};
+		0AF3660919E70221005787EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleRecursiveFunctionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleRecursiveFunction.app/SimpleRecursiveFunction";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AF365DC19E70221005787EE /* Build configuration list for PBXProject "SimpleRecursiveFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF3660219E70221005787EE /* Debug */,
+				0AF3660319E70221005787EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF3660419E70221005787EE /* Build configuration list for PBXNativeTarget "SimpleRecursiveFunction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF3660519E70221005787EE /* Debug */,
+				0AF3660619E70221005787EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0AF3660719E70221005787EE /* Build configuration list for PBXNativeTarget "SimpleRecursiveFunctionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF3660819E70221005787EE /* Debug */,
+				0AF3660919E70221005787EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AF365D919E70221005787EE /* Project object */;
+}
