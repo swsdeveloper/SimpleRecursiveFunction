@@ -11,5 +11,12 @@
 @interface ViewController : UIViewController
 
 
+-(void)printBigNumbers:(long int)bigNum;
+
+-(NSString *)convertNumberToCommaFormattedString:(long int)num;
+
+-(NSString *)formatIntWithCommas:(long int)num toNSString:(NSString *)commaFormattedNumber;
+
+
 @end
 
